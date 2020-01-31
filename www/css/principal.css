@@ -1,0 +1,17 @@
+.header{
+    text-align: center;
+    font-size: 18px;
+}
+
+.tab-content {
+    display:none;
+}
+.tab-content:first-child {
+    display:block;
+}
+[data-role=footer]{
+    bottom:0; 
+    position: fixed !important; 
+    top: auto !important; 
+    width:100%;
+}
